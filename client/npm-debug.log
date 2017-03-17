@@ -1,0 +1,680 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/iagovelasco/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/home/iagovelasco/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json client@1.0.0 No description
+5 warn package.json client@1.0.0 No repository field.
+6 warn package.json client@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/iagovelasco/Estudos/alurapic/client',
+8 verbose install   [ '@angular/common',
+8 verbose install     '@angular/compiler',
+8 verbose install     '@angular/core',
+8 verbose install     '@angular/forms',
+8 verbose install     '@angular/http',
+8 verbose install     '@angular/platform-browser',
+8 verbose install     '@angular/platform-browser-dynamic',
+8 verbose install     '@angular/router',
+8 verbose install     '@angular/upgrade',
+8 verbose install     'core-js',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'systemjs',
+8 verbose install     'zone.js',
+8 verbose install     'angular2-in-memory-web-api',
+8 verbose install     'bootstrap',
+8 verbose install     'typescript',
+8 verbose install     'typings' ] ]
+9 info preinstall client@1.0.0
+10 warn package.json punycode@1.4.1 punycode is also the name of a node core module.
+11 warn package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+12 verbose readDependencies using package.json deps
+13 verbose already installed skipping typings@^1.3.2 /home/iagovelasco/Estudos/alurapic/client
+14 verbose cache add [ '@angular/common@2.0.0', null ]
+15 verbose cache add name=undefined spec="@angular/common@2.0.0" args=["@angular/common@2.0.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '@angular/common@2.0.0',
+16 verbose parsed url   path: '@angular/common@2.0.0',
+16 verbose parsed url   href: '@angular/common@2.0.0' }
+17 verbose cache add [ '@angular/compiler@2.0.0', null ]
+18 verbose cache add name=undefined spec="@angular/compiler@2.0.0" args=["@angular/compiler@2.0.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '@angular/compiler@2.0.0',
+19 verbose parsed url   path: '@angular/compiler@2.0.0',
+19 verbose parsed url   href: '@angular/compiler@2.0.0' }
+20 verbose cache add [ '@angular/core@2.0.0', null ]
+21 verbose cache add name=undefined spec="@angular/core@2.0.0" args=["@angular/core@2.0.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '@angular/core@2.0.0',
+22 verbose parsed url   path: '@angular/core@2.0.0',
+22 verbose parsed url   href: '@angular/core@2.0.0' }
+23 verbose cache add [ '@angular/forms@2.0.0', null ]
+24 verbose cache add name=undefined spec="@angular/forms@2.0.0" args=["@angular/forms@2.0.0",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '@angular/forms@2.0.0',
+25 verbose parsed url   path: '@angular/forms@2.0.0',
+25 verbose parsed url   href: '@angular/forms@2.0.0' }
+26 verbose cache add [ '@angular/http@2.0.0', null ]
+27 verbose cache add name=undefined spec="@angular/http@2.0.0" args=["@angular/http@2.0.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '@angular/http@2.0.0',
+28 verbose parsed url   path: '@angular/http@2.0.0',
+28 verbose parsed url   href: '@angular/http@2.0.0' }
+29 verbose cache add [ '@angular/platform-browser@2.0.0', null ]
+30 verbose cache add name=undefined spec="@angular/platform-browser@2.0.0" args=["@angular/platform-browser@2.0.0",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '@angular/platform-browser@2.0.0',
+31 verbose parsed url   path: '@angular/platform-browser@2.0.0',
+31 verbose parsed url   href: '@angular/platform-browser@2.0.0' }
+32 verbose cache add [ '@angular/platform-browser-dynamic@2.0.0', null ]
+33 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@2.0.0" args=["@angular/platform-browser-dynamic@2.0.0",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '@angular/platform-browser-dynamic@2.0.0',
+34 verbose parsed url   path: '@angular/platform-browser-dynamic@2.0.0',
+34 verbose parsed url   href: '@angular/platform-browser-dynamic@2.0.0' }
+35 verbose cache add [ '@angular/router@3.0.0', null ]
+36 verbose cache add name=undefined spec="@angular/router@3.0.0" args=["@angular/router@3.0.0",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '@angular/router@3.0.0',
+37 verbose parsed url   path: '@angular/router@3.0.0',
+37 verbose parsed url   href: '@angular/router@3.0.0' }
+38 verbose cache add [ '@angular/upgrade@2.0.0', null ]
+39 verbose cache add name=undefined spec="@angular/upgrade@2.0.0" args=["@angular/upgrade@2.0.0",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '@angular/upgrade@2.0.0',
+40 verbose parsed url   path: '@angular/upgrade@2.0.0',
+40 verbose parsed url   href: '@angular/upgrade@2.0.0' }
+41 verbose cache add name="" spec="angular/common@2.0.0" args=["","angular/common@2.0.0"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'angular/common@2.0.0',
+42 verbose parsed url   path: 'angular/common@2.0.0',
+42 verbose parsed url   href: 'angular/common@2.0.0' }
+43 verbose cache add name="" spec="angular/compiler@2.0.0" args=["","angular/compiler@2.0.0"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'angular/compiler@2.0.0',
+44 verbose parsed url   path: 'angular/compiler@2.0.0',
+44 verbose parsed url   href: 'angular/compiler@2.0.0' }
+45 verbose cache add name="" spec="angular/core@2.0.0" args=["","angular/core@2.0.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'angular/core@2.0.0',
+46 verbose parsed url   path: 'angular/core@2.0.0',
+46 verbose parsed url   href: 'angular/core@2.0.0' }
+47 verbose cache add name="" spec="angular/forms@2.0.0" args=["","angular/forms@2.0.0"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'angular/forms@2.0.0',
+48 verbose parsed url   path: 'angular/forms@2.0.0',
+48 verbose parsed url   href: 'angular/forms@2.0.0' }
+49 verbose cache add name="" spec="angular/http@2.0.0" args=["","angular/http@2.0.0"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'angular/http@2.0.0',
+50 verbose parsed url   path: 'angular/http@2.0.0',
+50 verbose parsed url   href: 'angular/http@2.0.0' }
+51 verbose cache add name="" spec="angular/platform-browser@2.0.0" args=["","angular/platform-browser@2.0.0"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'angular/platform-browser@2.0.0',
+52 verbose parsed url   path: 'angular/platform-browser@2.0.0',
+52 verbose parsed url   href: 'angular/platform-browser@2.0.0' }
+53 verbose cache add name="" spec="angular/platform-browser-dynamic@2.0.0" args=["","angular/platform-browser-dynamic@2.0.0"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: 'angular/platform-browser-dynamic@2.0.0',
+54 verbose parsed url   path: 'angular/platform-browser-dynamic@2.0.0',
+54 verbose parsed url   href: 'angular/platform-browser-dynamic@2.0.0' }
+55 verbose cache add name="" spec="angular/router@3.0.0" args=["","angular/router@3.0.0"]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'angular/router@3.0.0',
+56 verbose parsed url   path: 'angular/router@3.0.0',
+56 verbose parsed url   href: 'angular/router@3.0.0' }
+57 verbose cache add name="" spec="angular/upgrade@2.0.0" args=["","angular/upgrade@2.0.0"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'angular/upgrade@2.0.0',
+58 verbose parsed url   path: 'angular/upgrade@2.0.0',
+58 verbose parsed url   href: 'angular/upgrade@2.0.0' }
+59 verbose already installed skipping core-js@^2.4.1 /home/iagovelasco/Estudos/alurapic/client
+60 verbose already installed skipping reflect-metadata@^0.1.3 /home/iagovelasco/Estudos/alurapic/client
+61 verbose already installed skipping rxjs@5.0.0-beta.12 /home/iagovelasco/Estudos/alurapic/client
+62 verbose cache add name="angular/common" spec="2.0.0" args=["angular/common","2.0.0"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: '2.0.0',
+63 verbose parsed url   path: '2.0.0',
+63 verbose parsed url   href: '2.0.0' }
+64 verbose addNamed [ 'angular/common', '2.0.0' ]
+65 verbose addNamed [ '2.0.0', '2.0.0' ]
+66 verbose cache add name="angular/compiler" spec="2.0.0" args=["angular/compiler","2.0.0"]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '2.0.0',
+67 verbose parsed url   path: '2.0.0',
+67 verbose parsed url   href: '2.0.0' }
+68 verbose addNamed [ 'angular/compiler', '2.0.0' ]
+69 verbose addNamed [ '2.0.0', '2.0.0' ]
+70 verbose cache add name="angular/core" spec="2.0.0" args=["angular/core","2.0.0"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '2.0.0',
+71 verbose parsed url   path: '2.0.0',
+71 verbose parsed url   href: '2.0.0' }
+72 verbose addNamed [ 'angular/core', '2.0.0' ]
+73 verbose addNamed [ '2.0.0', '2.0.0' ]
+74 verbose cache add name="angular/forms" spec="2.0.0" args=["angular/forms","2.0.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '2.0.0',
+75 verbose parsed url   path: '2.0.0',
+75 verbose parsed url   href: '2.0.0' }
+76 verbose addNamed [ 'angular/forms', '2.0.0' ]
+77 verbose addNamed [ '2.0.0', '2.0.0' ]
+78 verbose cache add name="angular/http" spec="2.0.0" args=["angular/http","2.0.0"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '2.0.0',
+79 verbose parsed url   path: '2.0.0',
+79 verbose parsed url   href: '2.0.0' }
+80 verbose addNamed [ 'angular/http', '2.0.0' ]
+81 verbose addNamed [ '2.0.0', '2.0.0' ]
+82 verbose cache add name="angular/platform-browser" spec="2.0.0" args=["angular/platform-browser","2.0.0"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '2.0.0',
+83 verbose parsed url   path: '2.0.0',
+83 verbose parsed url   href: '2.0.0' }
+84 verbose addNamed [ 'angular/platform-browser', '2.0.0' ]
+85 verbose addNamed [ '2.0.0', '2.0.0' ]
+86 verbose cache add name="angular/platform-browser-dynamic" spec="2.0.0" args=["angular/platform-browser-dynamic","2.0.0"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '2.0.0',
+87 verbose parsed url   path: '2.0.0',
+87 verbose parsed url   href: '2.0.0' }
+88 verbose addNamed [ 'angular/platform-browser-dynamic', '2.0.0' ]
+89 verbose addNamed [ '2.0.0', '2.0.0' ]
+90 verbose cache add name="angular/router" spec="3.0.0" args=["angular/router","3.0.0"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '3.0.0',
+91 verbose parsed url   path: '3.0.0',
+91 verbose parsed url   href: '3.0.0' }
+92 verbose addNamed [ 'angular/router', '3.0.0' ]
+93 verbose addNamed [ '3.0.0', '3.0.0' ]
+94 verbose cache add name="angular/upgrade" spec="2.0.0" args=["angular/upgrade","2.0.0"]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '2.0.0',
+95 verbose parsed url   path: '2.0.0',
+95 verbose parsed url   href: '2.0.0' }
+96 verbose addNamed [ 'angular/upgrade', '2.0.0' ]
+97 verbose addNamed [ '2.0.0', '2.0.0' ]
+98 verbose already installed skipping systemjs@0.19.27 /home/iagovelasco/Estudos/alurapic/client
+99 verbose already installed skipping zone.js@^0.6.23 /home/iagovelasco/Estudos/alurapic/client
+100 verbose already installed skipping angular2-in-memory-web-api@0.0.20 /home/iagovelasco/Estudos/alurapic/client
+101 verbose already installed skipping bootstrap@^3.3.6 /home/iagovelasco/Estudos/alurapic/client
+102 verbose already installed skipping typescript@^2.0.2 /home/iagovelasco/Estudos/alurapic/client
+103 silly lockFile 0e3d6c46-angular-common-2-0-0 angular/common@2.0.0
+104 verbose lock angular/common@2.0.0 /home/iagovelasco/.npm/0e3d6c46-angular-common-2-0-0.lock
+105 silly lockFile 770c3c92-angular-compiler-2-0-0 angular/compiler@2.0.0
+106 verbose lock angular/compiler@2.0.0 /home/iagovelasco/.npm/770c3c92-angular-compiler-2-0-0.lock
+107 silly lockFile b9bc72b6-angular-core-2-0-0 angular/core@2.0.0
+108 verbose lock angular/core@2.0.0 /home/iagovelasco/.npm/b9bc72b6-angular-core-2-0-0.lock
+109 silly lockFile 547a9a62-angular-forms-2-0-0 angular/forms@2.0.0
+110 verbose lock angular/forms@2.0.0 /home/iagovelasco/.npm/547a9a62-angular-forms-2-0-0.lock
+111 silly lockFile dd755930-angular-http-2-0-0 angular/http@2.0.0
+112 verbose lock angular/http@2.0.0 /home/iagovelasco/.npm/dd755930-angular-http-2-0-0.lock
+113 silly lockFile c16ff788-angular-platform-browser-2-0-0 angular/platform-browser@2.0.0
+114 verbose lock angular/platform-browser@2.0.0 /home/iagovelasco/.npm/c16ff788-angular-platform-browser-2-0-0.lock
+115 silly lockFile feea2851-r-platform-browser-dynamic-2-0-0 angular/platform-browser-dynamic@2.0.0
+116 verbose lock angular/platform-browser-dynamic@2.0.0 /home/iagovelasco/.npm/feea2851-r-platform-browser-dynamic-2-0-0.lock
+117 silly lockFile 72aca4b2-angular-router-3-0-0 angular/router@3.0.0
+118 verbose lock angular/router@3.0.0 /home/iagovelasco/.npm/72aca4b2-angular-router-3-0-0.lock
+119 silly lockFile 81a5ce24-angular-upgrade-2-0-0 angular/upgrade@2.0.0
+120 verbose lock angular/upgrade@2.0.0 /home/iagovelasco/.npm/81a5ce24-angular-upgrade-2-0-0.lock
+121 verbose request where is /angular/common
+122 verbose request registry https://registry.npmjs.org/
+123 verbose request id bdd4940bbdf9079c
+124 verbose url raw /angular/common
+125 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common' ]
+126 verbose url resolved https://registry.npmjs.org/angular/common
+127 verbose request where is https://registry.npmjs.org/angular/common
+128 info trying registry request attempt 1 at 21:41:36
+129 http GET https://registry.npmjs.org/angular/common
+130 verbose request where is /angular/compiler
+131 verbose request registry https://registry.npmjs.org/
+132 verbose url raw /angular/compiler
+133 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler' ]
+134 verbose url resolved https://registry.npmjs.org/angular/compiler
+135 verbose request where is https://registry.npmjs.org/angular/compiler
+136 info trying registry request attempt 1 at 21:41:36
+137 http GET https://registry.npmjs.org/angular/compiler
+138 verbose request where is /angular/upgrade
+139 verbose request registry https://registry.npmjs.org/
+140 verbose url raw /angular/upgrade
+141 verbose url resolving [ 'https://registry.npmjs.org/', './angular/upgrade' ]
+142 verbose url resolved https://registry.npmjs.org/angular/upgrade
+143 verbose request where is https://registry.npmjs.org/angular/upgrade
+144 info trying registry request attempt 1 at 21:41:36
+145 http GET https://registry.npmjs.org/angular/upgrade
+146 verbose request where is /angular/http
+147 verbose request registry https://registry.npmjs.org/
+148 verbose url raw /angular/http
+149 verbose url resolving [ 'https://registry.npmjs.org/', './angular/http' ]
+150 verbose url resolved https://registry.npmjs.org/angular/http
+151 verbose request where is https://registry.npmjs.org/angular/http
+152 info trying registry request attempt 1 at 21:41:36
+153 http GET https://registry.npmjs.org/angular/http
+154 verbose request where is /angular/platform-browser
+155 verbose request registry https://registry.npmjs.org/
+156 verbose url raw /angular/platform-browser
+157 verbose url resolving [ 'https://registry.npmjs.org/', './angular/platform-browser' ]
+158 verbose url resolved https://registry.npmjs.org/angular/platform-browser
+159 verbose request where is https://registry.npmjs.org/angular/platform-browser
+160 info trying registry request attempt 1 at 21:41:36
+161 http GET https://registry.npmjs.org/angular/platform-browser
+162 verbose request where is /angular/forms
+163 verbose request registry https://registry.npmjs.org/
+164 verbose url raw /angular/forms
+165 verbose url resolving [ 'https://registry.npmjs.org/', './angular/forms' ]
+166 verbose url resolved https://registry.npmjs.org/angular/forms
+167 verbose request where is https://registry.npmjs.org/angular/forms
+168 info trying registry request attempt 1 at 21:41:36
+169 http GET https://registry.npmjs.org/angular/forms
+170 verbose request where is /angular/router
+171 verbose request registry https://registry.npmjs.org/
+172 verbose url raw /angular/router
+173 verbose url resolving [ 'https://registry.npmjs.org/', './angular/router' ]
+174 verbose url resolved https://registry.npmjs.org/angular/router
+175 verbose request where is https://registry.npmjs.org/angular/router
+176 info trying registry request attempt 1 at 21:41:36
+177 http GET https://registry.npmjs.org/angular/router
+178 verbose request where is /angular/platform-browser-dynamic
+179 verbose request registry https://registry.npmjs.org/
+180 verbose url raw /angular/platform-browser-dynamic
+181 verbose url resolving [ 'https://registry.npmjs.org/',
+181 verbose url resolving   './angular/platform-browser-dynamic' ]
+182 verbose url resolved https://registry.npmjs.org/angular/platform-browser-dynamic
+183 verbose request where is https://registry.npmjs.org/angular/platform-browser-dynamic
+184 info trying registry request attempt 1 at 21:41:36
+185 http GET https://registry.npmjs.org/angular/platform-browser-dynamic
+186 verbose request where is /angular/core
+187 verbose request registry https://registry.npmjs.org/
+188 verbose url raw /angular/core
+189 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core' ]
+190 verbose url resolved https://registry.npmjs.org/angular/core
+191 verbose request where is https://registry.npmjs.org/angular/core
+192 info trying registry request attempt 1 at 21:41:36
+193 http GET https://registry.npmjs.org/angular/core
+194 http 404 https://registry.npmjs.org/angular/common
+195 silly registry.get cb [ 404,
+195 silly registry.get   { 'content-type': 'application/json',
+195 silly registry.get     'cache-control': 'max-age=0',
+195 silly registry.get     'content-length': '2',
+195 silly registry.get     'accept-ranges': 'bytes',
+195 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:37 GMT',
+195 silly registry.get     via: '1.1 varnish',
+195 silly registry.get     age: '0',
+195 silly registry.get     connection: 'keep-alive',
+195 silly registry.get     'x-served-by': 'cache-gru7122-GRU',
+195 silly registry.get     'x-cache': 'MISS',
+195 silly registry.get     'x-cache-hits': '0',
+195 silly registry.get     'x-timer': 'S1489711296.780043,VS0,VE810',
+195 silly registry.get     vary: 'Accept-Encoding' } ]
+196 silly lockFile 0e3d6c46-angular-common-2-0-0 angular/common@2.0.0
+197 silly lockFile 0e3d6c46-angular-common-2-0-0 angular/common@2.0.0
+198 http 404 https://registry.npmjs.org/angular/compiler
+199 silly registry.get cb [ 404,
+199 silly registry.get   { 'content-type': 'application/json',
+199 silly registry.get     'cache-control': 'max-age=0',
+199 silly registry.get     'content-length': '2',
+199 silly registry.get     'accept-ranges': 'bytes',
+199 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:37 GMT',
+199 silly registry.get     via: '1.1 varnish',
+199 silly registry.get     age: '0',
+199 silly registry.get     connection: 'keep-alive',
+199 silly registry.get     'x-served-by': 'cache-gru7123-GRU',
+199 silly registry.get     'x-cache': 'MISS',
+199 silly registry.get     'x-cache-hits': '0',
+199 silly registry.get     'x-timer': 'S1489711296.791982,VS0,VE806',
+199 silly registry.get     vary: 'Accept-Encoding' } ]
+200 silly lockFile 770c3c92-angular-compiler-2-0-0 angular/compiler@2.0.0
+201 silly lockFile 770c3c92-angular-compiler-2-0-0 angular/compiler@2.0.0
+202 http 404 https://registry.npmjs.org/angular/platform-browser
+203 silly registry.get cb [ 404,
+203 silly registry.get   { 'content-type': 'application/json',
+203 silly registry.get     'cache-control': 'max-age=0',
+203 silly registry.get     'content-length': '2',
+203 silly registry.get     'accept-ranges': 'bytes',
+203 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:37 GMT',
+203 silly registry.get     via: '1.1 varnish',
+203 silly registry.get     age: '0',
+203 silly registry.get     connection: 'keep-alive',
+203 silly registry.get     'x-served-by': 'cache-gru7120-GRU',
+203 silly registry.get     'x-cache': 'MISS',
+203 silly registry.get     'x-cache-hits': '0',
+203 silly registry.get     'x-timer': 'S1489711296.801571,VS0,VE802',
+203 silly registry.get     vary: 'Accept-Encoding' } ]
+204 silly lockFile c16ff788-angular-platform-browser-2-0-0 angular/platform-browser@2.0.0
+205 silly lockFile c16ff788-angular-platform-browser-2-0-0 angular/platform-browser@2.0.0
+206 http 404 https://registry.npmjs.org/angular/upgrade
+207 silly registry.get cb [ 404,
+207 silly registry.get   { 'content-type': 'application/json',
+207 silly registry.get     'cache-control': 'max-age=0',
+207 silly registry.get     'content-length': '2',
+207 silly registry.get     'accept-ranges': 'bytes',
+207 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:37 GMT',
+207 silly registry.get     via: '1.1 varnish',
+207 silly registry.get     age: '0',
+207 silly registry.get     connection: 'keep-alive',
+207 silly registry.get     'x-served-by': 'cache-gru7127-GRU',
+207 silly registry.get     'x-cache': 'MISS',
+207 silly registry.get     'x-cache-hits': '0',
+207 silly registry.get     'x-timer': 'S1489711296.798277,VS0,VE810',
+207 silly registry.get     vary: 'Accept-Encoding' } ]
+208 silly lockFile 81a5ce24-angular-upgrade-2-0-0 angular/upgrade@2.0.0
+209 silly lockFile 81a5ce24-angular-upgrade-2-0-0 angular/upgrade@2.0.0
+210 http 404 https://registry.npmjs.org/angular/http
+211 silly registry.get cb [ 404,
+211 silly registry.get   { 'content-type': 'application/json',
+211 silly registry.get     'cache-control': 'max-age=0',
+211 silly registry.get     'content-length': '2',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:37 GMT',
+211 silly registry.get     via: '1.1 varnish',
+211 silly registry.get     age: '0',
+211 silly registry.get     connection: 'keep-alive',
+211 silly registry.get     'x-served-by': 'cache-gru7127-GRU',
+211 silly registry.get     'x-cache': 'MISS',
+211 silly registry.get     'x-cache-hits': '0',
+211 silly registry.get     'x-timer': 'S1489711296.792294,VS0,VE896',
+211 silly registry.get     vary: 'Accept-Encoding' } ]
+212 silly lockFile dd755930-angular-http-2-0-0 angular/http@2.0.0
+213 silly lockFile dd755930-angular-http-2-0-0 angular/http@2.0.0
+214 http 404 https://registry.npmjs.org/angular/router
+215 silly registry.get cb [ 404,
+215 silly registry.get   { 'content-type': 'application/json',
+215 silly registry.get     'cache-control': 'max-age=0',
+215 silly registry.get     'content-length': '2',
+215 silly registry.get     'accept-ranges': 'bytes',
+215 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:38 GMT',
+215 silly registry.get     via: '1.1 varnish',
+215 silly registry.get     age: '0',
+215 silly registry.get     connection: 'keep-alive',
+215 silly registry.get     'x-served-by': 'cache-gru7123-GRU',
+215 silly registry.get     'x-cache': 'MISS',
+215 silly registry.get     'x-cache-hits': '0',
+215 silly registry.get     'x-timer': 'S1489711297.613551,VS0,VE795',
+215 silly registry.get     vary: 'Accept-Encoding' } ]
+216 silly lockFile 72aca4b2-angular-router-3-0-0 angular/router@3.0.0
+217 silly lockFile 72aca4b2-angular-router-3-0-0 angular/router@3.0.0
+218 http 404 https://registry.npmjs.org/angular/platform-browser-dynamic
+219 silly registry.get cb [ 404,
+219 silly registry.get   { 'content-type': 'application/json',
+219 silly registry.get     'cache-control': 'max-age=0',
+219 silly registry.get     'content-length': '2',
+219 silly registry.get     'accept-ranges': 'bytes',
+219 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:38 GMT',
+219 silly registry.get     via: '1.1 varnish',
+219 silly registry.get     age: '0',
+219 silly registry.get     connection: 'keep-alive',
+219 silly registry.get     'x-served-by': 'cache-gru7120-GRU',
+219 silly registry.get     'x-cache': 'MISS',
+219 silly registry.get     'x-cache-hits': '0',
+219 silly registry.get     'x-timer': 'S1489711297.617890,VS0,VE795',
+219 silly registry.get     vary: 'Accept-Encoding' } ]
+220 silly lockFile feea2851-r-platform-browser-dynamic-2-0-0 angular/platform-browser-dynamic@2.0.0
+221 silly lockFile feea2851-r-platform-browser-dynamic-2-0-0 angular/platform-browser-dynamic@2.0.0
+222 http 404 https://registry.npmjs.org/angular/forms
+223 silly registry.get cb [ 404,
+223 silly registry.get   { 'content-type': 'application/json',
+223 silly registry.get     'cache-control': 'max-age=0',
+223 silly registry.get     'content-length': '2',
+223 silly registry.get     'accept-ranges': 'bytes',
+223 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:38 GMT',
+223 silly registry.get     via: '1.1 varnish',
+223 silly registry.get     age: '0',
+223 silly registry.get     connection: 'keep-alive',
+223 silly registry.get     'x-served-by': 'cache-gru7122-GRU',
+223 silly registry.get     'x-cache': 'MISS',
+223 silly registry.get     'x-cache-hits': '0',
+223 silly registry.get     'x-timer': 'S1489711297.606224,VS0,VE817',
+223 silly registry.get     vary: 'Accept-Encoding' } ]
+224 silly lockFile 547a9a62-angular-forms-2-0-0 angular/forms@2.0.0
+225 silly lockFile 547a9a62-angular-forms-2-0-0 angular/forms@2.0.0
+226 http 404 https://registry.npmjs.org/angular/core
+227 silly registry.get cb [ 404,
+227 silly registry.get   { 'content-type': 'application/json',
+227 silly registry.get     'cache-control': 'max-age=0',
+227 silly registry.get     'content-length': '2',
+227 silly registry.get     'accept-ranges': 'bytes',
+227 silly registry.get     date: 'Fri, 17 Mar 2017 00:41:38 GMT',
+227 silly registry.get     via: '1.1 varnish',
+227 silly registry.get     age: '0',
+227 silly registry.get     connection: 'keep-alive',
+227 silly registry.get     'x-served-by': 'cache-gru7127-GRU',
+227 silly registry.get     'x-cache': 'MISS',
+227 silly registry.get     'x-cache-hits': '0',
+227 silly registry.get     'x-timer': 'S1489711297.626689,VS0,VE806',
+227 silly registry.get     vary: 'Accept-Encoding' } ]
+228 silly lockFile b9bc72b6-angular-core-2-0-0 angular/core@2.0.0
+229 silly lockFile b9bc72b6-angular-core-2-0-0 angular/core@2.0.0
+230 error 404 Not Found
+230 error 404
+230 error 404 'angular/common' is not in the npm registry.
+230 error 404 You should bug the author to publish it
+230 error 404 It was specified as a dependency of 'client'
+230 error 404
+230 error 404 Note that you can also install from a
+230 error 404 tarball, folder, or http url, or git url.
+231 error System Linux 4.4.0-67-generic
+232 error command "/home/iagovelasco/.nvm/v0.10.40/bin/node" "/home/iagovelasco/.nvm/v0.10.40/bin/npm" "install"
+233 error cwd /home/iagovelasco/Estudos/alurapic/client
+234 error node -v v0.10.40
+235 error npm -v 1.4.28
+236 error code E404
+237 verbose exit [ 1, true ]
