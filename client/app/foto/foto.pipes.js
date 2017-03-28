@@ -7,17 +7,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var FiltroPorTitulo = (function () {
+    function FiltroPorTitulo() {
     }
-    return AppComponent;
+    FiltroPorTitulo.prototype.transform = function (fotos, digitado) {
+        digitado = digitado.toLowerCase();
+        return fotos.filter(function (foto) { return foto.titulo.toLowerCase().includes(digitado); });
+    };
+    return FiltroPorTitulo;
 }());
-AppComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: 'app',
-        templateUrl: './app.component.html'
+FiltroPorTitulo = __decorate([
+    core_1.Pipe({
+        name: 'filtroPorTitulo'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], FiltroPorTitulo);
+exports.FiltroPorTitulo = FiltroPorTitulo;
+//# sourceMappingURL=foto.pipes.js.map
